@@ -1,0 +1,5 @@
+<resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey"></string>
+    <string name="app_name">Medlink</string>
+    <string name="my_default_channel_id">2132</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "783081798427",
+    "firebase_url": "https://medlink-fb159.firebaseio.com",
+    "project_id": "medlink-fb159",
+    "storage_bucket": "medlink-fb159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783081798427:android:decd0e07f51e61eb",
+        "android_client_info": {
+          "package_name": "com.ecomedic.medlink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783081798427-e3o2uk9clhq4f17kl3f9gp3jt092jgee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ev5_FkkdDWTg8C17Z6dnIyGQMWicdAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783081798427-e3o2uk9clhq4f17kl3f9gp3jt092jgee.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "783081798427-6t7edhsrrt745kq1cqb4kmqg6pf09cqd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techcare.medlink"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+app_identifier("com.techcare.medlink") # The bundle identifier of your app
+apple_id("appid@medlink.vn") # Your Apple email address
+team_id("77V4N7U75Q")
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

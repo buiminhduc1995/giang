@@ -1,0 +1,398 @@
+import { StyleSheet, Dimensions, Platform } from 'react-native';
+let { width } = Dimensions.get('window');
+import { MAIN_COLOR, WHITE, SHADOW, BLACK, RED, themes } from '../../constants/';
+import vw from '../../utils/size-dynamic';
+import { header, body } from '../../constants/themes';
+export default StyleSheet.create({
+  container: { flex: 1 },
+  viewNoti: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  wapper: {
+    width: '100%',
+    paddingHorizontal: vw(5),
+
+    backgroundColor: WHITE,
+  },
+  wapperTouch: {
+    width: width / 2 - 15,
+    height: 81,
+    margin: 5,
+    paddingLeft: 5,
+    borderRadius: 5,
+  },
+  txtTitle: {
+    fontSize: vw(12),
+    color: 'white',
+    marginTop: vw(2),
+  },
+  txtDanger: {
+    color: 'red',
+    fontSize: vw(14),
+  },
+  txtDetail: {
+    color: 'rgba(255, 255, 255, 0.7)',
+    fontSize: 12,
+    fontWeight: '300',
+  },
+  icon: {
+    width: vw(14),
+    height: vw(7),
+    marginRight: 10,
+  },
+  touch: {
+    width: 100,
+    height: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 5,
+  },
+  wapperNotiDranger: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    flex: 1,
+    paddingRight: 10,
+  },
+  wapperModal: {
+    marginLeft: 10,
+  },
+  wapperCard: {
+    flexDirection: 'row',
+    marginTop: 8,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  wapperTitle: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: vw(10),
+  },
+  wapperHederRight: {
+    width: vw(120),
+    height: vw(30),
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: WHITE,
+    borderRadius: vw(5),
+    marginRight: vw(10),
+  },
+  backgroundModal: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  ModalInsideView: {
+    backgroundColor: 'white',
+    height: vw(245),
+    width: '90%',
+    borderRadius: vw(5),
+    padding: vw(10),
+  },
+  wapperCheckBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: vw(3),
+  },
+  txtFilter: {
+    color: 'black',
+    // fontWeight: 'bold',
+    fontSize: vw(14),
+  },
+  buttonCheckBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  checkbox: {
+    height: vw(10),
+    width: vw(10),
+    borderColor: themes.colors.MAIN_COLOR,
+    borderWidth: vw(1),
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  wapperInputFilter: {
+    flexDirection: 'row',
+    height: vw(40),
+    // width: '100%',
+    borderRadius: vw(5),
+    padding: vw(3),
+    borderColor: themes.colors.GRAY,
+    borderWidth: vw(1),
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: vw(10),
+  },
+  txt14: {
+    fontSize: vw(14),
+  },
+  iconArrow: {
+    width: vw(14),
+    height: vw(14),
+    tintColor: themes.colors.BLACK_BASIC,
+  },
+  buttonFilter: {
+    height: vw(40),
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: vw(10),
+    backgroundColor: themes.colors.MAIN_COLOR,
+    borderRadius: vw(5),
+  },
+  txtHeaderLeft: {
+    ...header,
+  },
+  txtHeaderRight: {
+    ...body,
+    fontWeight: 'bold',
+    color: MAIN_COLOR,
+  },
+  dropdownStyle: {
+    width: '50%',
+    // height: 'auto',
+    maxHeight: vw(120),
+    borderRadius: vw(3),
+    overflow: 'hidden',
+    // marginTop: vw(50),
+    marginRight: -vw(10),
+    // Shadow
+    ...Platform.select({
+      ios: {
+        shadowColor: 'black',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.14,
+        shadowRadius: 2,
+      },
+      android: {
+        elevation: 8,
+      },
+    }),
+  },
+  wapperConditionChart: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: '100%',
+    // marginTop: 10,
+    backgroundColor: 'white',
+    paddingTop: vw(3),
+    borderTopLeftRadius: vw(5),
+    borderTopRightRadius: vw(5),
+    height: vw(40),
+    shadowRadius: 2,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowColor: '#000000',
+    elevation: 1,
+  },
+  txtStatistical: {
+    color: themes.colors.BLACK_BASIC,
+    fontWeight: 'bold',
+    fontSize: vw(16),
+    paddingLeft: vw(10),
+  },
+  buttonAccpect: {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: vw(16),
+  },
+  txtDateTime: {
+    fontSize: vw(12),
+    color: '#666666',
+  },
+  wapperChartLine: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+    borderBottomRightRadius: vw(5),
+    borderBottomLeftRadius: vw(5),
+    height: vw(200),
+  },
+  txtChartEmpty: {
+    fontSize: vw(12),
+    color: themes.colors.MAIN_COLOR,
+  },
+  containerChart: {
+    width: '100%',
+    flex: 1,
+    backgroundColor: themes.colors.WHITE,
+    borderRadius: vw(5),
+    marginBottom: vw(10),
+  },
+  buttonFilterModal: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: themes.colors.MAIN_COLOR,
+    padding: vw(3),
+    borderRadius: vw(5),
+    marginLeft: vw(10),
+    width: vw(50),
+    justifyContent: 'center',
+  },
+  iconFilter: {
+    width: vw(12),
+    height: vw(12),
+    tintColor: 'white',
+  },
+  buttonNoti: {
+    marginRight: vw(10),
+    width: vw(28),
+    height: vw(28),
+    backgroundColor: '#81B356',
+    borderRadius: vw(14),
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  numberInfo: {
+    fontSize: vw(10),
+    color: 'white',
+    position: 'absolute',
+    // top: -3,
+    // right: -5,
+    fontWeight: 'bold',
+  },
+  containerNoti: {
+    backgroundColor: '#FF7E00',
+    height: vw(20),
+    width: vw(20),
+    borderRadius: vw(10),
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    top: vw(-5),
+    right: vw(-8),
+  },
+  iconNoti: {
+    width: vw(12),
+    height: vw(12),
+  },
+  // styles dash board
+  layoutRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+  },
+  contnetRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  h1: {
+    fontWeight: 'bold',
+    fontSize: vw(15),
+    color: 'white',
+  },
+  wapperText: {
+    width: vw(60),
+  },
+  containerReport: {
+    width: '100%',
+    // height: vw(110),
+    borderRadius: vw(5),
+    ...SHADOW,
+    backgroundColor: themes.colors.WHITE,
+    marginVertical: vw(10),
+    // justifyContent: 'center'
+  },
+  detailReport: {
+    width: '80%',
+    height: vw(60),
+    // backgroundColor: 'red'
+  },
+  wapperAlignCenter: {
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  iconVariability: {
+    width: vw(13),
+    height: vw(13),
+    resizeMode: 'contain',
+  },
+  txtReport: {
+    fontSize: vw(13),
+    color: themes.colors.BLACK,
+  },
+  numberReport: {
+    fontSize: vw(18),
+    color: '#11013D',
+    fontWeight: 'bold',
+  },
+  txtPercent: {
+    fontSize: vw(16),
+    color: themes.colors.RED,
+    fontWeight: 'bold',
+  },
+  iconRight: {
+    width: vw(8),
+    height: vw(8),
+    resizeMode: 'contain',
+  },
+  containerFunction: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    height: vw(40),
+    width: '95%',
+  },
+  txtFunction: {
+    fontSize: vw(13),
+    color: themes.colors.BLACK_BASIC,
+  },
+  viewNumber: {
+    height: vw(20),
+    paddingHorizontal: vw(10),
+    borderRadius: vw(10),
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginLeft: vw(10),
+  },
+  numberFunction: {
+    color: themes.colors.WHITE,
+    fontWeight: 'bold',
+    fontSize: vw(12),
+  },
+  iconSearch: {
+    width: vw(15),
+    height: vw(15),
+    resizeMode: 'contain',
+  },
+  text: {
+    fontSize: vw(10),
+    color: themes.colors.MAIN_COLOR,
+    fontFamily: themes.fontFamily.fontFamily,
+  },
+  containerEmpty: {
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: vw(100),
+  },
+  dropdownTextStyle: {
+    fontSize: vw(14),
+    fontFamily: themes.fontFamily.fontFamily,
+  },
+  containerTopSell: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: '100%',
+  },
+  containerModal: {
+    alignItems: 'center',
+    marginRight: vw(5),
+    marginTop: vw(5),
+  },
+  iconClose: {
+    width: vw(10),
+    height: vw(10),
+    tintColor: themes.colors.RED,
+  },
+});

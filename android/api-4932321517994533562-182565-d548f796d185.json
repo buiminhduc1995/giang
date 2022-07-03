@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "api-4932321517994533562-182565",
+  "private_key_id": "d548f796d18554ec29577e9d9879a9276e68eb72",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCPY4dwNapUY1C+\nmp1G8bEHiBmNxDvn0tG7wta2Zz26XDWnC/nRVlOSmWgOIlrE2fNew8f5hJetyc2Z\ndlnUgb2nTsoQDzlaLoad0vmAQrQIxZUTROOxjFaUOvQTYN/wlJC+6kEmCYLF4kiv\n+/PuHp/VlUbltd2PhkxpPws4q0GZoubCyrp2ebSPzfOl5To1iwsDZpx4JUdWHM8P\niftkg7DP4c7n3kIpeOFsu+3GYA5+XTtl6su5YRZWXjCEeWxW7s3i2MjkfXRQYa1i\n/5d/zHG4WlicyOyejIaR3QSYoGH/zlNwQlJjIHkOjxmGX3H1Q/dcVJ94qaduR0vA\nIAJ0aCstAgMBAAECggEAHBJpvSOchant8Gr3uKBvvqA8FH+jFMc2zXIfNBWxRY9w\n55PWJFAoy24iK4Y5TAm5dkeRGn4Fbf4wtMcxXgPKe/tWXt+EJG4wZ6yasSwd8Auy\nnFOj2io19w41o6eXIBQN5HqbJ5W8Fv6uqVmDz44KT7fKagV5a3Ro+D/h9AW/MZMi\nYgSi76zl3hrurBa1ZUh73SHuEO/XKk1x0iGFFaZb+TvmHDHWcUeWvf0KNLgU8jH/\ndNCDhBIud96BreTxX43eqDVPB2pfhC+1refuMOvsVE/zufitQQa1K5XSTDCEPfPd\nbT66Wav0mPfq/Mg0eKKBs00Bev/bpyAR3vaUUQVBcQKBgQDBA0BN+T5OkwTw9Fn1\nkv52+Ga5D1G52cli2ixVVgDUfzrhVOoGEqBClHlYF1JXVFuUfaovhsNliLoZqLB5\nbTngL0152Uwoq6fZE43eTUeBn17fhOtlWoL28BM+TRiDrtiMu4DdZWyHRsgIYYaV\nxp//DkQmXUqFUkMH2ECQ3VdtOQKBgQC+LpNksQgrary5aGF30Cw+saqjMfV/72Eo\nUZd8jVwrmrAt2VjsDDDhNw7+Zivmd0Dl82V8VPrq7wq5SJLDPJCAR8/Cyx4AuIYx\n71dN75YkUYWfgNPB1QhZmthK1shbK1uGskdL0jXelm9TsP1ErSjToE3kHy+Ntp+x\n6bgr9DthlQKBgGM3oaGzgyTvDHY0ld3YHzjW/i8ZQeCwpIZNMsb3O9wAPys/9EEE\n6B7xpeLzsh80PRN6+bYOp3kVLN0tyvHQhRTKHCCL5Etv2guLsrzYqu5mF2X9NOhX\n+8Smqq23AegHREgrxtWIYp6zcvZj88QgY3TAR6YVBM6997kboC0Xqu55AoGBAIgd\nG56wWZGBZisousGeu1vvmpoMcpGrCRVrOAmLvtDyeG+IJG1k2EMIPfHzvC3JYihy\nCEtxItisVzd+6pNTMHSvcNIQv5tydZEdpJWCCSpbMlCTSntq9fvzqCQADwu5P1tr\nEz3/6FAzyN/UR6A0cojsLXM8orNBZpBWH1tOBIX1AoGBALKp7KSoFs2r1OX8EDIw\nb4qoAIyzvX85JmWNruSfYeh3M65Il/1rGEXIaJH7uytVeW3uymHDB9bvBOAzwWMq\nFyzhxMnUDlOtlajKsMy8Oxh9sz9lRH5N884FQdiq9artfaZMKqZltGoZi8ETa+NA\nWT45FzftB+vggVw6F4Zzp52W\n-----END PRIVATE KEY-----\n",
+  "client_email": "medlink-pharmacy@api-4932321517994533562-182565.iam.gserviceaccount.com",
+  "client_id": "109639372658205089292",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/medlink-pharmacy%40api-4932321517994533562-182565.iam.gserviceaccount.com"
+}

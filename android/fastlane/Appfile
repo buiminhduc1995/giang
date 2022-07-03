@@ -1,0 +1,2 @@
+json_key_file("api-4932321517994533562-182565-d548f796d185.json") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
+package_name("com.ecomedic.medlink") # e.g. com.krausefx.app
